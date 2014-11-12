@@ -1,0 +1,18 @@
+{
+  "name": "xpr-feature",
+  "version": "0.0.1",
+  "description": "",
+  "dependencies": {
+    "debug": "^2.1.0",
+    "experiment": "git+https://github.com/xprmntl/experiment.git"
+  },
+  "peerDependencies": {
+    "feature-client": "^0.8.0"
+  },
+  "main": "./lib/feature.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dan Crews <crewsd@gmail.com>",
+  "license": "GPL3"
+}

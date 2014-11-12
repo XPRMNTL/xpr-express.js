@@ -1,0 +1,22 @@
+{
+  "globals": {
+    "it" : false,
+    "describe" : false,
+    "before" : false,
+    "beforeEach" : false,
+    "after" : false,
+    "afterEach" : false
+  },
+
+  "node" : true,
+  "browser" : true,
+  "devel" : true,
+
+  "forin" : true,
+  "indent" : 2,
+  "strict" : false,
+  "undef" : true,
+
+  "laxbreak" : true,
+  "laxcomma" : true
+}
