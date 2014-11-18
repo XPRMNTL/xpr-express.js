@@ -13,6 +13,5 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Dan Crews <crewsd@gmail.com>",
-  "license": "GPL3"
+  "author": "Dan Crews <crewsd@gmail.com>"
 }
