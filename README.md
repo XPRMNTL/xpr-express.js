@@ -52,7 +52,7 @@ app.get('/', function() {
 
       ```js
       function(userID, experiments, res) {
-        // Save experiment configuration to express `req` or other means
+        // Save experiment configuration to express `res` or other means
 
         return; // nothing
       }
