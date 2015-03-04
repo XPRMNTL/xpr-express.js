@@ -1,7 +1,7 @@
 {
   "name": "xpr-express",
-  "version": "0.0.4",
-  "description": "",
+  "version": "0.0.5",
+  "description": "Express.js plugin for XPRMNTL feature-client",
   "dependencies": {
     "debug": "^2.1.0",
     "experiment": "git+https://github.com/xprmntl/experiment.git"
