@@ -1,7 +1,10 @@
 {
   "name": "xpr-express",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Express.js plugin for XPRMNTL feature-client",
+  "main": "./lib/xpr-express.js",
+  "author": "Dan Crews <crewsd@gmail.com>",
+  "repository": "https://github.com/XPRMNTL/xpr-express.js",
   "dependencies": {
     "debug": "^2.1.0",
     "experiment": "git+https://github.com/xprmntl/experiment.git"
@@ -9,9 +12,7 @@
   "peerDependencies": {
     "feature-client": "^0.9.0"
   },
-  "main": "./lib/xpr-express.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Dan Crews <crewsd@gmail.com>"
+  }
 }
