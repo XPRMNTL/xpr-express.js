@@ -79,6 +79,15 @@ app.get('/', function() {
   - `featureClient.express` is the express middleware that is added to featureClient. It attaches the req.feature() function to the `req` object.
   - `req.feature` is a function that determines if a user has an experiment enabled.
 
+### Setting features via url
+As of v1.0.0, you now have the ability to turn experiments on/off via the url. This is only on a per-user basis, similar to [xpr-toggle](https://github.com/XPRMNTL/xpr-toggle.js).
+
+Example
+`[appUrl]/[path]/?xpr.featName1=true` - Sets feature "featName1" to true
+`[appUrl]/[path]/?xpr.featName1=false&featName=true` - Sets feature "featName1" to false and "featName2" to true
+
+This also allows you to enable features that normally would not show up in the list (secret features).
+
 ### FAQ
 1. The default read/write methods are not working.
   - Make sure you are using `express.cookieParser` __before__ `featureClient.express`. This is not done for you in case you do your own state lookups.

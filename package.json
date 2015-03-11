@@ -1,6 +1,6 @@
 {
   "name": "xpr-express",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Express.js plugin for XPRMNTL feature-client",
   "main": "./lib/xpr-express.js",
   "author": "Dan Crews <crewsd@gmail.com>",
