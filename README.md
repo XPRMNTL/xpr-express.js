@@ -1,6 +1,8 @@
-[![XPRMNTL](https://raw.githubusercontent.com/XPRMNTL/XPRMNTL.github.io/master/images/ghLogo.png)](https://github.com/XPRMNTL/XPRMNTL.github.io)
+[![XPRMNTL][logo-image]][logo-url]
 # XPR-Express.js
-[![NPM version](https://img.shields.io/npm/v/xpr-express.svg)](https://www.npmjs.org/package/xpr-express)
+[![NPM version][npm-image]][npm-url]
+[![Downloads][downloads-image]][downloads-url]
+[![Tips][gratipay-image]][gratipay-url]
 
 This is a Node.js plugin for XPRMNTL [feature-client](https://github.com/XPRMNTL/feature-client.js).
 It adds the ability to call `req.feature` from within an
@@ -91,3 +93,12 @@ This also allows you to enable features that normally would not show up in the l
 ### FAQ
 1. The default read/write methods are not working.
   - Make sure you are using `express.cookieParser` __before__ `featureClient.express`. This is not done for you in case you do your own state lookups.
+
+[logo-image]: https://raw.githubusercontent.com/XPRMNTL/XPRMNTL.github.io/master/images/ghLogo.png
+[logo-url]: https://github.com/XPRMNTL/XPRMNTL.github.io
+[npm-image]: https://img.shields.io/npm/v/xpr-express.svg
+[npm-url]: https://www.npmjs.org/package/xpr-express
+[downloads-image]: https://img.shields.io/npm/dm/xpr-express.svg
+[downloads-url]: https://www.npmjs.org/package/xpr-express
+[gratipay-image]: https://img.shields.io/gratipay/dncrews.svg
+[gratipay-url]: https://www.gratipay.com/dncrews/
