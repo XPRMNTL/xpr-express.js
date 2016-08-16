@@ -1,6 +1,6 @@
 {
   "name": "xpr-express",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Express.js plugin for XPRMNTL feature-client",
   "main": "./lib/xpr-express.js",
   "author": "Dan Crews <crewsd@gmail.com>",
@@ -20,6 +20,10 @@
     "feature-client": "^1.0.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "eslint ."
+  },
+  "devDependencies": {
+    "eslint": "^3.3.1"
   }
 }
