@@ -1,5 +1,7 @@
 [![XPRMNTL][logo-image]][logo-url]
 # XPR-Express.js
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/XPRMNTL/xpr-express.js.svg)](https://greenkeeper.io/)
 [![NPM version][npm-image]][npm-url]
 [![Downloads][downloads-image]][downloads-url]
 [![Tips][gratipay-image]][gratipay-url]
